@@ -1,0 +1,7 @@
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid week2::topic_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:36:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kranges[m[K’ was not declared in this scope
+   36 |       for (size_t i = 0; i < [01;31m[Kranges[m[K.size(); i += 4) {
+      |                              [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/week2.dir/build.make:76: CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/week2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

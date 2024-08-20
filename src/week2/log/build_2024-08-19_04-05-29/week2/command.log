@@ -1,0 +1,4 @@
+Invoking command in '/home/student/ros2_ws/src/week2/build/week2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/week2 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/week2/install/week2
+Invoked command in '/home/student/ros2_ws/src/week2/build/week2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/week2 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/week2/install/week2
+Invoking command in '/home/student/ros2_ws/src/week2/build/week2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8
+Invoked command in '/home/student/ros2_ws/src/week2/build/week2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8

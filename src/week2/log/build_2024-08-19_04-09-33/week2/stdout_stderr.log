@@ -1,0 +1,125 @@
+[35m[1mConsolidate compiler generated dependencies of target week2[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:36:47:[m[K [01;31m[Kerror: [m[K‘[01m[KlaserScan[m[K’ in namespace ‘[01m[Ksensor_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KLaserScan[m[K’?
+   36 |   void topic_callback(const sensor_msgs::msg::[01;31m[KlaserScan[m[K msg) const
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                               [32m[KLaserScan[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:48:39:[m[K [01;31m[Kerror: [m[K‘[01m[KlaserScan[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   48 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KlaserScan[m[K>::SharedPtr subscription_;
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:48:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |   rclcpp::Subscription<std_msgs::msg::laserScan[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:48:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:48:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:48:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:48:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   48 |   rclcpp::Subscription<std_msgs::msg::laserScan>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:48:61:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   48 |   rclcpp::Subscription<std_msgs::msg::laserScan>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                             [32m[Krmw_subscription_t[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:39:[m[K [01;31m[Kerror: [m[K‘[01m[KlaserScan[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[KLaserScan[m[K’?
+   49 |   rclcpp::Publisher<sensor_msgs::msg::[01;31m[KlaserScan[m[K>::SharedPtr publisher_;
+      |                                       [01;31m[K^~~~~~~~~[m[K
+      |                                       [32m[KLaserScan[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |   rclcpp::Publisher<sensor_msgs::msg::laserScan[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   49 |   rclcpp::Publisher<sensor_msgs::msg::laserScan>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:51:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint week2::SharedPtr[m[K’
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:48:51:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint week2::SharedPtr[m[K’
+   48 |   rclcpp::Subscription<std_msgs::msg::laserScan>::[01;36m[KSharedPtr[m[K subscription_;
+      |                                                   [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   49 |   rclcpp::Publisher<sensor_msgs::msg::laserScan>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+      |                                                             [32m[Krmw_publisher_t[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[Kweek2::week2()[m[K’:
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   29 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::laserScan>(
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:29:65:[m[K [01;31m[Kerror: [m[K‘[01m[KlaserScan[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[KLaserScan[m[K’?
+   29 | subscription_ = this->create_subscription<sensor_msgs::msg::[01;31m[KlaserScan[m[K>(
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[KLaserScan[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:29:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kweek2::create_subscription<<expression error> >(const char [21], int, std::_Bind_helper<false, void (week2::*)(int) const, week2*, const std::_Placeholder<1>&>::type)[m[K’
+   29 | subscription_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::laserScan>([m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   30 | [01;31m[K  "sensor_msgs/msg/scan", 10, std::bind(&week2::topic_callback, this, _1))[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:18[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:29:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 | subscription_ = [01;31m[Kthis->create_subscription<sensor_msgs::msg::laserScan>([m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+
+   30 | [01;31m[K  "sensor_msgs/msg/scan", 10, std::bind(&week2::topic_callback, this, _1))[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   32 |     [01;31m[Kpublisher_[m[K = this->create_publisher<sensor_msgs::msg::laserScan>("/sensor_msgs/msg/scan_modified", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:32:59:[m[K [01;31m[Kerror: [m[K‘[01m[KlaserScan[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[KLaserScan[m[K’?
+   32 |     publisher_ = this->create_publisher<sensor_msgs::msg::[01;31m[KlaserScan[m[K>("/sensor_msgs/msg/scan_modified", 10);
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[KLaserScan[m[K
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:32:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kweek2::create_publisher<<expression error> >(const char [31], int)[m[K’
+   32 | isher_ = [01;31m[Kthis->create_publisher<sensor_msgs::msg::laserScan>("/sensor_msgs/msg/scan_modified", 10)[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:18[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:32:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 | isher_ = [01;31m[Kthis->create_publisher<sensor_msgs::msg::laserScan>("/sensor_msgs/msg/scan_modified", 10)[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:18[m[K:
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid week2::topic_callback(int) const[m[K’:
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:40:69:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   40 | RCLCPP_INFO(this->get_logger(), "Angle_min: %f radians", msg[01;31m[K->[m[Kangle_min);
+      |                                                             [01;31m[K^~[m[K
+
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:41:69:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   41 | RCLCPP_INFO(this->get_logger(), "Angle_max: %f radians", msg[01;31m[K->[m[Kangle_max);
+      |                                                             [01;31m[K^~[m[K
+
+[01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:42:75:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   42 | _INFO(this->get_logger(), "Angle_increment: %f radians", msg[01;31m[K->[m[Kangle_increment);
+      |                                                             [01;31m[K^~[m[K
+
+gmake[2]: *** [CMakeFiles/week2.dir/build.make:76: CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/week2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

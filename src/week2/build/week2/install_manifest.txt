@@ -1,0 +1,16 @@
+/home/student/ros2_ws/src/week2/install/week2/lib/week2/week2
+/home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/package_run_dependencies/week2
+/home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/parent_prefix_path/week2
+/home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.sh
+/home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.sh
+/home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.dsv
+/home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.bash
+/home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.sh
+/home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.zsh
+/home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.dsv
+/home/student/ros2_ws/src/week2/install/week2/share/week2/package.dsv
+/home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/packages/week2
+/home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config.cmake
+/home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config-version.cmake
+/home/student/ros2_ws/src/week2/install/week2/share/week2/package.xml

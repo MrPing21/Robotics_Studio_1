@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000533] (week2) JobQueued: {'identifier': 'week2', 'dependencies': OrderedDict()}
+[0.000823] (week2) JobStarted: {'identifier': 'week2'}
+[0.008117] (week2) JobProgress: {'identifier': 'week2', 'progress': 'cmake'}
+[0.008745] (week2) JobProgress: {'identifier': 'week2', 'progress': 'build'}
+[0.009559] (week2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/week2/build/week2', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/week2/build/week2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1907'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2192'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1996,unix/labMGJSX0:/tmp/.ICE-unix/1996'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03ee996a_8eca_4f09_9981_51479e26035d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.183'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/week2/build/week2'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066419] (week2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target week2\x1b[0m\n'}
+[0.095658] (week2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.099536] (-) TimerEvent: {}
+[0.199922] (-) TimerEvent: {}
+[0.300328] (-) TimerEvent: {}
+[0.400707] (-) TimerEvent: {}
+[0.501051] (-) TimerEvent: {}
+[0.601402] (-) TimerEvent: {}
+[0.701741] (-) TimerEvent: {}
+[0.802092] (-) TimerEvent: {}
+[0.902534] (-) TimerEvent: {}
+[1.002886] (-) TimerEvent: {}
+[1.103235] (-) TimerEvent: {}
+[1.203659] (-) TimerEvent: {}
+[1.304042] (-) TimerEvent: {}
+[1.404440] (-) TimerEvent: {}
+[1.504796] (-) TimerEvent: {}
+[1.605167] (-) TimerEvent: {}
+[1.705501] (-) TimerEvent: {}
+[1.805854] (-) TimerEvent: {}
+[1.906225] (-) TimerEvent: {}
+[2.006540] (-) TimerEvent: {}
+[2.106919] (-) TimerEvent: {}
+[2.207234] (-) TimerEvent: {}
+[2.307627] (-) TimerEvent: {}
+[2.408003] (-) TimerEvent: {}
+[2.508356] (-) TimerEvent: {}
+[2.608719] (-) TimerEvent: {}
+[2.709042] (-) TimerEvent: {}
+[2.809460] (-) TimerEvent: {}
+[2.909852] (-) TimerEvent: {}
+[3.010240] (-) TimerEvent: {}
+[3.110617] (-) TimerEvent: {}
+[3.211027] (-) TimerEvent: {}
+[3.312063] (-) TimerEvent: {}
+[3.412479] (-) TimerEvent: {}
+[3.512911] (-) TimerEvent: {}
+[3.613242] (-) TimerEvent: {}
+[3.713663] (-) TimerEvent: {}
+[3.814108] (-) TimerEvent: {}
+[3.914480] (-) TimerEvent: {}
+[4.014910] (-) TimerEvent: {}
+[4.115270] (-) TimerEvent: {}
+[4.215692] (-) TimerEvent: {}
+[4.316074] (-) TimerEvent: {}
+[4.416422] (-) TimerEvent: {}
+[4.516797] (-) TimerEvent: {}
+[4.617214] (-) TimerEvent: {}
+[4.717671] (-) TimerEvent: {}
+[4.818083] (-) TimerEvent: {}
+[4.918427] (-) TimerEvent: {}
+[5.018811] (-) TimerEvent: {}
+[5.119179] (-) TimerEvent: {}
+[5.219650] (-) TimerEvent: {}
+[5.320074] (-) TimerEvent: {}
+[5.420460] (-) TimerEvent: {}
+[5.520803] (-) TimerEvent: {}
+[5.621206] (-) TimerEvent: {}
+[5.721606] (-) TimerEvent: {}
+[5.821936] (-) TimerEvent: {}
+[5.922326] (-) TimerEvent: {}
+[6.022731] (-) TimerEvent: {}
+[6.123091] (-) TimerEvent: {}
+[6.223440] (-) TimerEvent: {}
+[6.323855] (-) TimerEvent: {}
+[6.424258] (-) TimerEvent: {}
+[6.524629] (-) TimerEvent: {}
+[6.624955] (-) TimerEvent: {}
+[6.725329] (-) TimerEvent: {}
+[6.825688] (-) TimerEvent: {}
+[6.926057] (-) TimerEvent: {}
+[7.026425] (-) TimerEvent: {}
+[7.126809] (-) TimerEvent: {}
+[7.227223] (-) TimerEvent: {}
+[7.327615] (-) TimerEvent: {}
+[7.427997] (-) TimerEvent: {}
+[7.528374] (-) TimerEvent: {}
+[7.628735] (-) TimerEvent: {}
+[7.729060] (-) TimerEvent: {}
+[7.829420] (-) TimerEvent: {}
+[7.929854] (-) TimerEvent: {}
+[8.030209] (-) TimerEvent: {}
+[8.130624] (-) TimerEvent: {}
+[8.231049] (-) TimerEvent: {}
+[8.331450] (-) TimerEvent: {}
+[8.431895] (-) TimerEvent: {}
+[8.532275] (-) TimerEvent: {}
+[8.632617] (-) TimerEvent: {}
+[8.732949] (-) TimerEvent: {}
+[8.833276] (-) TimerEvent: {}
+[8.933610] (-) TimerEvent: {}
+[9.034268] (-) TimerEvent: {}
+[9.134663] (-) TimerEvent: {}
+[9.235105] (-) TimerEvent: {}
+[9.240727] (week2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable week2\x1b[0m\n'}
+[9.335229] (-) TimerEvent: {}
+[9.435591] (-) TimerEvent: {}
+[9.536038] (-) TimerEvent: {}
+[9.636465] (-) TimerEvent: {}
+[9.736785] (-) TimerEvent: {}
+[9.837248] (-) TimerEvent: {}
+[9.937557] (-) TimerEvent: {}
+[10.037961] (-) TimerEvent: {}
+[10.138362] (-) TimerEvent: {}
+[10.238911] (-) TimerEvent: {}
+[10.339227] (-) TimerEvent: {}
+[10.439621] (-) TimerEvent: {}
+[10.540007] (-) TimerEvent: {}
+[10.640362] (-) TimerEvent: {}
+[10.740728] (-) TimerEvent: {}
+[10.841043] (-) TimerEvent: {}
+[10.941352] (-) TimerEvent: {}
+[11.041652] (-) TimerEvent: {}
+[11.070441] (week2) StdoutLine: {'line': b'[100%] Built target week2\n'}
+[11.083659] (week2) CommandEnded: {'returncode': 0}
+[11.114039] (week2) JobProgress: {'identifier': 'week2', 'progress': 'install'}
+[11.124536] (week2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/src/week2/build/week2'], 'cwd': '/home/student/ros2_ws/src/week2/build/week2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1907'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2192'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1996,unix/labMGJSX0:/tmp/.ICE-unix/1996'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03ee996a_8eca_4f09_9981_51479e26035d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.183'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/week2/build/week2'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.135233] (week2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.135482] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/lib/week2/week2\n'}
+[11.141746] (-) TimerEvent: {}
+[11.142804] (week2) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/week2/install/week2/lib/week2/week2" to ""\n'}
+[11.143045] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/package_run_dependencies/week2\n'}
+[11.143233] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/parent_prefix_path/week2\n'}
+[11.143476] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.sh\n'}
+[11.143663] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.dsv\n'}
+[11.143834] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.sh\n'}
+[11.144018] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.dsv\n'}
+[11.144190] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.bash\n'}
+[11.144365] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.sh\n'}
+[11.144558] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.zsh\n'}
+[11.144729] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.dsv\n'}
+[11.144941] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/package.dsv\n'}
+[11.145194] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/packages/week2\n'}
+[11.145402] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config.cmake\n'}
+[11.145564] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config-version.cmake\n'}
+[11.145778] (week2) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/package.xml\n'}
+[11.148047] (week2) CommandEnded: {'returncode': 0}
+[11.197690] (week2) JobEnded: {'identifier': 'week2', 'rc': 0}
+[11.198591] (-) EventReactorShutdown: {}

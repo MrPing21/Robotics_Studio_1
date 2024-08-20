@@ -1,47 +1,65 @@
-// Copyright 2016 Open Source Robotics Foundation, Inc.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 #include <functional>
 #include <memory>
-
+#include <sensor_msgs/msg/laser_scan.hpp>
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 
 using std::placeholders::_1;
 
-class MinimalSubscriber : public rclcpp::Node
+class week2 : public rclcpp::Node
 {
 public:
-  MinimalSubscriber()
-  : Node("minimal_subscriber")
+  week2()
+  : Node("minimal_subscriber"), count_(0)
   {
-    subscription_ = this->create_subscription<std_msgs::msg::String>(
-      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+    subscription_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      "/scan", 10, std::bind(&week2::topic_callback, this, _1));
+    
+    publisher_ = this->create_publisher<sensor_msgs::msg::LaserScan>("/sensor_msgs/msg/scan_modified", 10);
   }
 
 private:
-  void topic_callback(const std_msgs::msg::String & msg) const
+  void topic_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
   {
-    RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+    count_++;
+
+    // RCLCPP_INFO(this->get_logger(), "Angle_min: %f radians", msg->angle_min);
+    // RCLCPP_INFO(this->get_logger(), "Angle_max: %f radians", msg->angle_max);
+    // RCLCPP_INFO(this->get_logger(), "Angle_increment: %f radians", msg->angle_increment);
+
+
+     if (count_ % 4 == 0) {
+      // Create a new ranges array to store every 4th scan
+      std::vector<float> new_ranges;
+      for (size_t i = 0; i < msg->ranges.size(); i += 4) {
+        new_ranges.push_back(msg->ranges[i]);
+      }
+
+      // Adjust the angle_increment based on the reduction of data
+      float new_angle_increment = msg->angle_increment * 4;
+
+      // Create a new LaserScan message to publish
+      auto modified_msg = std::make_shared<sensor_msgs::msg::LaserScan>();
+      *modified_msg = *msg;  // Copy original message
+
+      // Modify the relevant fields
+      modified_msg->ranges = new_ranges;
+      modified_msg->angle_increment = new_angle_increment;
+
+      publisher_->publish(*modified_msg);
+      RCLCPP_INFO(this->get_logger(), "Published a modified message with every 4th range.");
+    }
   }
-  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+
+  rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr subscription_;
+  rclcpp::Publisher<sensor_msgs::msg::LaserScan>::SharedPtr publisher_;
+  int count_;  // Counter to track the number of messages received
 };
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<MinimalSubscriber>());
+  rclcpp::spin(std::make_shared<week2>());
   rclcpp::shutdown();
   return 0;
 }

@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/student/ros2_ws/src/week2/build/week2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target week2[0m
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o[0m
+[2.640s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.640s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.641s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.641s]                  from [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:18[m[K:
+[2.641s] [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid week2::topic_callback(sensor_msgs::msg::LaserScan) const[m[K’:
+[2.641s] [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:40:69:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[2.641s]    40 | RCLCPP_INFO(this->get_logger(), "Angle_min: %f radians", msg[01;31m[K->[m[Kangle_min);
+[2.641s]       |                                                             [01;31m[K^~[m[K
+[2.641s] 
+[2.641s] [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:41:69:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[2.641s]    41 | RCLCPP_INFO(this->get_logger(), "Angle_max: %f radians", msg[01;31m[K->[m[Kangle_max);
+[2.642s]       |                                                             [01;31m[K^~[m[K
+[2.642s] 
+[2.642s] [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:42:75:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’}
+[2.642s]    42 | _INFO(this->get_logger(), "Angle_increment: %f radians", msg[01;31m[K->[m[Kangle_increment);
+[2.642s]       |                                                             [01;31m[K^~[m[K
+[2.642s] 
+[5.506s] gmake[2]: *** [CMakeFiles/week2.dir/build.make:76: CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o] Error 1
+[5.506s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/week2.dir/all] Error 2
+[5.506s] gmake: *** [Makefile:146: all] Error 2
+[5.511s] Invoked command in '/home/student/ros2_ws/src/week2/build/week2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8

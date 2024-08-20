@@ -1,0 +1,11 @@
+[0.016s] Invoking command in '/home/student/ros2_ws/src/week2/build/week2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target week2[0m
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o[0m
+[2.820s] [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid week2::topic_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.820s] [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:25:9:[m[K [01;31m[Kerror: [m[Kincrement of member ‘[01m[Kweek2::count_[m[K’ in read-only object
+[2.820s]    25 |         [01;31m[Kcount_[m[K++;
+[2.820s]       |         [01;31m[K^~~~~~[m[K
+[5.855s] gmake[2]: *** [CMakeFiles/week2.dir/build.make:76: CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o] Error 1
+[5.855s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/week2.dir/all] Error 2
+[5.855s] gmake: *** [Makefile:146: all] Error 2
+[5.858s] Invoked command in '/home/student/ros2_ws/src/week2/build/week2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8

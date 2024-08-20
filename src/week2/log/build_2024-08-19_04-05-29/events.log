@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000669] (week2) JobQueued: {'identifier': 'week2', 'dependencies': OrderedDict()}
+[0.000805] (week2) JobStarted: {'identifier': 'week2'}
+[0.042623] (week2) JobProgress: {'identifier': 'week2', 'progress': 'cmake'}
+[0.042847] (week2) Command: {'cmd': ['/usr/bin/cmake', '/home/student/ros2_ws/src/week2', '-DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/week2/install/week2'], 'cwd': '/home/student/ros2_ws/src/week2/build/week2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1907'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2192'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1996,unix/labMGJSX0:/tmp/.ICE-unix/1996'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03ee996a_8eca_4f09_9981_51479e26035d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.183'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/week2/build/week2'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099685] (-) TimerEvent: {}
+[0.200166] (-) TimerEvent: {}
+[0.300568] (-) TimerEvent: {}
+[0.401058] (-) TimerEvent: {}
+[0.501646] (-) TimerEvent: {}
+[0.602241] (-) TimerEvent: {}
+[0.702772] (-) TimerEvent: {}
+[0.782339] (week2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.802860] (-) TimerEvent: {}
+[0.903306] (-) TimerEvent: {}
+[1.003903] (-) TimerEvent: {}
+[1.104381] (-) TimerEvent: {}
+[1.204907] (-) TimerEvent: {}
+[1.227821] (week2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.261598] (week2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.305066] (-) TimerEvent: {}
+[1.405403] (-) TimerEvent: {}
+[1.410061] (week2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.417605] (week2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.417967] (week2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.422350] (week2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.427529] (week2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.505575] (-) TimerEvent: {}
+[1.543586] (week2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.553258] (week2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.553470] (week2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.553895] (week2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.598907] (week2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.605662] (-) TimerEvent: {}
+[1.705979] (-) TimerEvent: {}
+[1.797433] (week2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.806112] (-) TimerEvent: {}
+[1.906514] (-) TimerEvent: {}
+[1.995636] (week2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.006612] (-) TimerEvent: {}
+[2.106937] (-) TimerEvent: {}
+[2.121676] (week2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.132999] (week2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.151361] (week2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.185701] (week2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.207082] (-) TimerEvent: {}
+[2.253040] (week2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.307242] (-) TimerEvent: {}
+[2.375626] (week2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.379171] (week2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.407327] (-) TimerEvent: {}
+[2.507690] (-) TimerEvent: {}
+[2.550413] (week2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.580123] (week2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.607851] (-) TimerEvent: {}
+[2.628422] (week2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.667747] (week2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.708019] (-) TimerEvent: {}
+[2.758477] (week2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.758752] (week2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.808130] (-) TimerEvent: {}
+[2.850374] (week2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.851577] (week2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.908222] (-) TimerEvent: {}
+[3.008598] (-) TimerEvent: {}
+[3.062122] (week2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.108763] (-) TimerEvent: {}
+[3.209070] (-) TimerEvent: {}
+[3.280941] (week2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.309248] (-) TimerEvent: {}
+[3.409678] (-) TimerEvent: {}
+[3.510143] (-) TimerEvent: {}
+[3.610588] (-) TimerEvent: {}
+[3.711014] (-) TimerEvent: {}
+[3.730173] (week2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.731884] (week2) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/src/week2/build/week2\n'}
+[3.745365] (week2) CommandEnded: {'returncode': 0}
+[3.746068] (week2) JobProgress: {'identifier': 'week2', 'progress': 'build'}
+[3.746972] (week2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/week2/build/week2', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/week2/build/week2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1907'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2192'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1996,unix/labMGJSX0:/tmp/.ICE-unix/1996'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/03ee996a_8eca_4f09_9981_51479e26035d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.183'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/week2/build/week2'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.811104] (-) TimerEvent: {}
+[3.815812] (week2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[3.911283] (-) TimerEvent: {}
+[4.011702] (-) TimerEvent: {}
+[4.112123] (-) TimerEvent: {}
+[4.212635] (-) TimerEvent: {}
+[4.313141] (-) TimerEvent: {}
+[4.413598] (-) TimerEvent: {}
+[4.514078] (-) TimerEvent: {}
+[4.614470] (-) TimerEvent: {}
+[4.715057] (-) TimerEvent: {}
+[4.815568] (-) TimerEvent: {}
+[4.916024] (-) TimerEvent: {}
+[5.016424] (-) TimerEvent: {}
+[5.116880] (-) TimerEvent: {}
+[5.217307] (-) TimerEvent: {}
+[5.317694] (-) TimerEvent: {}
+[5.418084] (-) TimerEvent: {}
+[5.518520] (-) TimerEvent: {}
+[5.618899] (-) TimerEvent: {}
+[5.719265] (-) TimerEvent: {}
+[5.819684] (-) TimerEvent: {}
+[5.920120] (-) TimerEvent: {}
+[6.020552] (-) TimerEvent: {}
+[6.120998] (-) TimerEvent: {}
+[6.221429] (-) TimerEvent: {}
+[6.321867] (-) TimerEvent: {}
+[6.422304] (-) TimerEvent: {}
+[6.522746] (-) TimerEvent: {}
+[6.623156] (-) TimerEvent: {}
+[6.723529] (-) TimerEvent: {}
+[6.823971] (-) TimerEvent: {}
+[6.924402] (-) TimerEvent: {}
+[7.024850] (-) TimerEvent: {}
+[7.077687] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:36:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klaser_scan\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KLaserScan\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.078007] (week2) StderrLine: {'line': b'   36 |   void topic_callback(const sensor_msgs::msg::\x1b[01;31m\x1b[Klaser_scan\x1b[m\x1b[K msg) const\n'}
+[7.078090] (week2) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.078158] (week2) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[KLaserScan\x1b[m\x1b[K\n'}
+[7.119354] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.119639] (week2) StderrLine: {'line': b'   49 |   rclcpp::Publisher<sensor_msgs::msg::\x1b[01;31m\x1b[KImage\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[7.119756] (week2) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.119859] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.119975] (week2) StderrLine: {'line': b'   49 |   rclcpp::Publisher<sensor_msgs::msg::Image\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[7.120109] (week2) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.120212] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.120317] (week2) StderrLine: {'line': b'   49 |   rclcpp::Publisher<sensor_msgs::msg::Image>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[7.120419] (week2) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.120521] (week2) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.121700] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:49:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.121891] (week2) StderrLine: {'line': b'   49 |   rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[7.121967] (week2) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.122032] (week2) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[7.122598] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kweek2::week2()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.122770] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:29:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klaser_scan\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KLaserScan\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.122864] (week2) StderrLine: {'line': b'   29 | subscription_ = this->create_subscription<sensor_msgs::msg::\x1b[01;31m\x1b[Klaser_scan\x1b[m\x1b[K>(\n'}
+[7.122960] (week2) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.123038] (week2) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[KLaserScan\x1b[m\x1b[K\n'}
+[7.124981] (-) TimerEvent: {}
+[7.128034] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:29:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kweek2::create_subscription<<expression error> >(const char [21], int, std::_Bind_helper<false, void (week2::*)(int) const, week2*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.128185] (week2) StderrLine: {'line': b'   29 | ubscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<sensor_msgs::msg::laser_scan>(\x1b[m\x1b[K\n'}
+[7.128257] (week2) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.128335] (week2) StderrLine: {'line': b'\n'}
+[7.128399] (week2) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K "sensor_msgs/msg/scan", 10, std::bind(&week2::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[7.128461] (week2) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.128524] (week2) StderrLine: {'line': b'\n'}
+[7.131832] (week2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.131944] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.132015] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.132075] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[7.132137] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.132220] (week2) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[7.132297] (week2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.132360] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.132423] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:29:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.132486] (week2) StderrLine: {'line': b'   29 | ubscription_ = \x1b[01;31m\x1b[Kthis->create_subscription<sensor_msgs::msg::laser_scan>(\x1b[m\x1b[K\n'}
+[7.132548] (week2) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.132618] (week2) StderrLine: {'line': b'\n'}
+[7.132678] (week2) StderrLine: {'line': b'   30 | \x1b[01;31m\x1b[K "sensor_msgs/msg/scan", 10, std::bind(&week2::topic_callback, this, _1))\x1b[m\x1b[K;\n'}
+[7.132740] (week2) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.132797] (week2) StderrLine: {'line': b'\n'}
+[7.138352] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.138474] (week2) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<sensor_msgs::msg::laser_scan>("/sensor_msgs/msg/scan_modified", 10);\n'}
+[7.138542] (week2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.138602] (week2) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[7.138659] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:32:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klaser_scan\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KLaserScan\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.138729] (week2) StderrLine: {'line': b'   32 |     publisher_ = this->create_publisher<sensor_msgs::msg::\x1b[01;31m\x1b[Klaser_scan\x1b[m\x1b[K>("/sensor_msgs/msg/scan_modified", 10);\n'}
+[7.138787] (week2) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.138841] (week2) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[KLaserScan\x1b[m\x1b[K\n'}
+[7.138898] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:32:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kweek2::create_publisher<<expression error> >(const char [31], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.138962] (week2) StderrLine: {'line': b'   32 | sher_ = \x1b[01;31m\x1b[Kthis->create_publisher<sensor_msgs::msg::laser_scan>("/sensor_msgs/msg/scan_modified", 10)\x1b[m\x1b[K;\n'}
+[7.139029] (week2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.139141] (week2) StderrLine: {'line': b'\n'}
+[7.139255] (week2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.139360] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.139461] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.139569] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[7.139675] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.139773] (week2) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[7.139868] (week2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.139975] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.140077] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:32:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.140191] (week2) StderrLine: {'line': b'   32 | sher_ = \x1b[01;31m\x1b[Kthis->create_publisher<sensor_msgs::msg::laser_scan>("/sensor_msgs/msg/scan_modified", 10)\x1b[m\x1b[K;\n'}
+[7.140296] (week2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.140418] (week2) StderrLine: {'line': b'\n'}
+[7.140701] (week2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.140788] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.140850] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.140919] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.140978] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.141043] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.141101] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.141162] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.141221] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.141280] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.141336] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.141393] (week2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:18\x1b[m\x1b[K:\n'}
+[7.141449] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid week2::topic_callback(int) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.141507] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:40:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[7.141567] (week2) StderrLine: {'line': b'   40 | RCLCPP_INFO(this->get_logger(), "Angle_min: %f radians", msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kangle_min);\n'}
+[7.141622] (week2) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.141690] (week2) StderrLine: {'line': b'\n'}
+[7.141744] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:41:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[7.141836] (week2) StderrLine: {'line': b'   41 | RCLCPP_INFO(this->get_logger(), "Angle_max: %f radians", msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kangle_max);\n'}
+[7.141894] (week2) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.141953] (week2) StderrLine: {'line': b'\n'}
+[7.142009] (week2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:42:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 is not a pointer\n'}
+[7.142077] (week2) StderrLine: {'line': b'   42 | _INFO(this->get_logger(), "Angle_increment: %f radians", msg\x1b[01;31m\x1b[K->\x1b[m\x1b[Kangle_increment);\n'}
+[7.142142] (week2) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.142199] (week2) StderrLine: {'line': b'\n'}
+[7.225164] (-) TimerEvent: {}
+[7.325569] (-) TimerEvent: {}
+[7.426032] (-) TimerEvent: {}
+[7.526394] (-) TimerEvent: {}
+[7.600987] (week2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/week2.dir/build.make:76: CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o] Error 1\n'}
+[7.601271] (week2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/week2.dir/all] Error 2\n'}
+[7.601513] (week2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.603923] (week2) CommandEnded: {'returncode': 2}
+[7.626563] (-) TimerEvent: {}
+[7.653475] (week2) JobEnded: {'identifier': 'week2', 'rc': 2}
+[7.663946] (-) EventReactorShutdown: {}

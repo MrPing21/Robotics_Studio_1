@@ -1,0 +1,28 @@
+[0.044s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8
+[0.074s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.352s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.374s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.398s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.674s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.712s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.774s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.786s] -- Looking for pthread.h
+[0.960s] -- Looking for pthread.h - found
+[0.960s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.050s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.051s] -- Found Threads: TRUE  
+[1.264s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.265s]   ament_target_dependencies() the first argument must be a valid target name
+[1.265s] Call Stack (most recent call first):
+[1.265s]   CMakeLists.txt:15 (ament_target_dependencies)
+[1.265s] 
+[1.265s] [0m
+[1.266s] -- Configuring incomplete, errors occurred!
+[1.267s] See also "/home/student/ros2_ws/build/lab1/CMakeFiles/CMakeOutput.log".
+[1.272s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.290s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8

@@ -1,0 +1,10 @@
+[0.055s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8
+[0.155s] [ 50%] [32mBuilding CXX object CMakeFiles/labone.dir/src/subscriber_member_function.cpp.o[0m
+[1.402s] [01m[K/home/student/ros2_ws/src/lab1/src/subscriber_member_function.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[1.403s]    20 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[1.403s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.403s] compilation terminated.
+[1.405s] gmake[2]: *** [CMakeFiles/labone.dir/build.make:76: CMakeFiles/labone.dir/src/subscriber_member_function.cpp.o] Error 1
+[1.405s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/labone.dir/all] Error 2
+[1.405s] gmake: *** [Makefile:146: all] Error 2
+[1.408s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8

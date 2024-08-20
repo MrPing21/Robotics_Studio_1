@@ -1,0 +1,16 @@
+[01m[K/home/student/ros2_ws/src/lab1/src/subscriber_member_function.cpp:56:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K}[m[K’ token
+   56 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/student/ros2_ws/src/lab1/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/student/ros2_ws/src/lab1/src/subscriber_member_function.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   33 |     [01;31m[Kpublisher_[m[K = this->create_publisher<sensor_msgs::msg::Image>("/camera/image_modified", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/student/ros2_ws/src/lab1/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/lab1/src/subscriber_member_function.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   47 |             [01;31m[Kpublisher_[m[K->publish(*modified_msg);//the circle is then published to the topic /camera/image_modified
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/labone.dir/build.make:76: CMakeFiles/labone.dir/src/subscriber_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/labone.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target week2[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable week2[0m
+[100%] Built target week2
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/lib/week2/week2
+-- Set runtime path of "/home/student/ros2_ws/src/week2/install/week2/lib/week2/week2" to ""
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/package_run_dependencies/week2
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/parent_prefix_path/week2
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.dsv
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.sh
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.dsv
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.bash
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.sh
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.zsh
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.dsv
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/package.dsv
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/packages/week2
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config.cmake
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config-version.cmake
+-- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/package.xml

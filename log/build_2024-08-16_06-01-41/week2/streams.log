@@ -1,0 +1,20 @@
+[0.031s] Invoking command in '/home/student/ros2_ws/build/week2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/week2 -- -j8 -l8
+[0.103s] Invoked command in '/home/student/ros2_ws/build/week2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/week2 -- -j8 -l8
+[0.159s] Invoking command in '/home/student/ros2_ws/build/week2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/week2
+[0.175s] -- Install configuration: ""
+[0.176s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/ament_index/resource_index/package_run_dependencies/week2
+[0.176s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/ament_index/resource_index/parent_prefix_path/week2
+[0.176s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/environment/ament_prefix_path.sh
+[0.176s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/environment/ament_prefix_path.dsv
+[0.176s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/environment/path.sh
+[0.177s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/environment/path.dsv
+[0.177s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/local_setup.bash
+[0.177s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/local_setup.sh
+[0.177s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/local_setup.zsh
+[0.177s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/local_setup.dsv
+[0.177s] -- Installing: /home/student/ros2_ws/install/week2/share/week2/package.dsv
+[0.177s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/ament_index/resource_index/packages/week2
+[0.177s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/cmake/week2Config.cmake
+[0.178s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/cmake/week2Config-version.cmake
+[0.178s] -- Up-to-date: /home/student/ros2_ws/install/week2/share/week2/package.xml
+[0.180s] Invoked command in '/home/student/ros2_ws/build/week2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/week2

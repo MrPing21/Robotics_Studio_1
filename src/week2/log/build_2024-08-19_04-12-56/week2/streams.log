@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/student/ros2_ws/src/week2/build/week2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target week2[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o[0m
+[9.240s] [100%] [32m[1mLinking CXX executable week2[0m
+[11.070s] [100%] Built target week2
+[11.083s] Invoked command in '/home/student/ros2_ws/src/week2/build/week2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8
+[11.125s] Invoking command in '/home/student/ros2_ws/src/week2/build/week2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/week2/build/week2
+[11.135s] -- Install configuration: ""
+[11.135s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/lib/week2/week2
+[11.142s] -- Set runtime path of "/home/student/ros2_ws/src/week2/install/week2/lib/week2/week2" to ""
+[11.142s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/package_run_dependencies/week2
+[11.142s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/parent_prefix_path/week2
+[11.143s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.sh
+[11.143s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.dsv
+[11.143s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.sh
+[11.143s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.dsv
+[11.143s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.bash
+[11.144s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.sh
+[11.144s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.zsh
+[11.144s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.dsv
+[11.144s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/package.dsv
+[11.144s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/packages/week2
+[11.145s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config.cmake
+[11.145s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config-version.cmake
+[11.145s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/package.xml
+[11.148s] Invoked command in '/home/student/ros2_ws/src/week2/build/week2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/week2/build/week2

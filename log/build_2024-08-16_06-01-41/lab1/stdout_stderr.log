@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target labone[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/labone.dir/src/subscriber_member_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable labone[0m
+[100%] Built target labone
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/install/lab1/lib/lab1/labone
+-- Set runtime path of "/home/student/ros2_ws/install/lab1/lib/lab1/labone" to ""
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+-- Installing: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.sh
+-- Installing: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.dsv
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.bash
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.sh
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.zsh
+-- Installing: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/lab1/share/lab1/package.dsv
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+-- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/package.xml

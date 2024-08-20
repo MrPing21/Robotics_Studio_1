@@ -1,0 +1,26 @@
+[0.047s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target labone[0m
+[0.194s] [ 50%] [32mBuilding CXX object CMakeFiles/labone.dir/src/subscriber_member_function.cpp.o[0m
+[11.738s] [100%] [32m[1mLinking CXX executable labone[0m
+[14.525s] [100%] Built target labone
+[14.540s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8
+[14.575s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/lab1
+[14.585s] -- Install configuration: ""
+[14.585s] -- Installing: /home/student/ros2_ws/install/lab1/lib/lab1/labone
+[14.592s] -- Set runtime path of "/home/student/ros2_ws/install/lab1/lib/lab1/labone" to ""
+[14.592s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+[14.592s] -- Installing: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+[14.592s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+[14.592s] -- Installing: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+[14.592s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.sh
+[14.592s] -- Installing: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.dsv
+[14.593s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.bash
+[14.593s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.sh
+[14.593s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.zsh
+[14.593s] -- Installing: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.dsv
+[14.593s] -- Installing: /home/student/ros2_ws/install/lab1/share/lab1/package.dsv
+[14.593s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+[14.593s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+[14.593s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+[14.593s] -- Up-to-date: /home/student/ros2_ws/install/lab1/share/lab1/package.xml
+[14.595s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/lab1

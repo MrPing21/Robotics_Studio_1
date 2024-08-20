@@ -1,0 +1,30 @@
+[0.073s] Invoking command in '/home/student/ros2_ws/src/week2/build/week2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target week2[0m
+[0.301s] [ 50%] [32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o[0m
+[7.212s] [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid week2::topic_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr) const[m[K’:
+[7.213s] [01m[K/home/student/ros2_ws/src/week2/src/subscriber_member_function.cpp:25:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kcount_[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[7.213s]    25 |         [01;35m[Kcount_++[m[K;
+[7.213s]       |         [01;35m[K~~~~~~^~[m[K
+[11.190s] [100%] [32m[1mLinking CXX executable week2[0m
+[13.194s] [100%] Built target week2
+[13.209s] Invoked command in '/home/student/ros2_ws/src/week2/build/week2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week2/build/week2 -- -j8 -l8
+[13.257s] Invoking command in '/home/student/ros2_ws/src/week2/build/week2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/week2/build/week2
+[13.270s] -- Install configuration: ""
+[13.286s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/lib/week2/week2
+[13.295s] -- Set runtime path of "/home/student/ros2_ws/src/week2/install/week2/lib/week2/week2" to ""
+[13.295s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/package_run_dependencies/week2
+[13.295s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/parent_prefix_path/week2
+[13.295s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.sh
+[13.295s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/ament_prefix_path.dsv
+[13.295s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.sh
+[13.296s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/environment/path.dsv
+[13.296s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.bash
+[13.296s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.sh
+[13.296s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.zsh
+[13.296s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/local_setup.dsv
+[13.296s] -- Installing: /home/student/ros2_ws/src/week2/install/week2/share/week2/package.dsv
+[13.300s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/ament_index/resource_index/packages/week2
+[13.300s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config.cmake
+[13.300s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/cmake/week2Config-version.cmake
+[13.301s] -- Up-to-date: /home/student/ros2_ws/src/week2/install/week2/share/week2/package.xml
+[13.303s] Invoked command in '/home/student/ros2_ws/src/week2/build/week2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/week2/build/week2
