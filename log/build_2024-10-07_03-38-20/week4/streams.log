@@ -1,0 +1,23 @@
+[0.039s] Invoking command in '/home/student/ros2_ws/build/week4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/week4 -- -j8 -l8
+[0.316s] [100%] Built target week4
+[0.369s] Invoked command in '/home/student/ros2_ws/build/week4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/week4 -- -j8 -l8
+[0.472s] Invoking command in '/home/student/ros2_ws/build/week4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/week4
+[0.541s] -- Install configuration: ""
+[0.541s] -- Execute custom install script
+[0.542s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/lib/week4/week4
+[0.542s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/ament_index/resource_index/package_run_dependencies/week4
+[0.542s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/ament_index/resource_index/parent_prefix_path/week4
+[0.542s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/environment/ament_prefix_path.sh
+[0.542s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/environment/ament_prefix_path.dsv
+[0.542s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/environment/path.sh
+[0.542s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/environment/path.dsv
+[0.542s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/local_setup.bash
+[0.543s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/local_setup.sh
+[0.543s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/local_setup.zsh
+[0.543s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/local_setup.dsv
+[0.543s] -- Symlinking: /home/student/ros2_ws/install/week4/share/week4/package.dsv
+[0.553s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/ament_index/resource_index/packages/week4
+[0.554s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/cmake/week4Config.cmake
+[0.554s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/cmake/week4Config-version.cmake
+[0.555s] -- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/package.xml
+[0.559s] Invoked command in '/home/student/ros2_ws/build/week4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/week4

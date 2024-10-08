@@ -1,0 +1,16 @@
+/home/student/ros2_ws/install/sprint2/lib/sprint2/sprint2
+/home/student/ros2_ws/install/sprint2/share/ament_index/resource_index/package_run_dependencies/sprint2
+/home/student/ros2_ws/install/sprint2/share/ament_index/resource_index/parent_prefix_path/sprint2
+/home/student/ros2_ws/install/sprint2/share/sprint2/environment/ament_prefix_path.sh
+/home/student/ros2_ws/install/sprint2/share/sprint2/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/install/sprint2/share/sprint2/environment/path.sh
+/home/student/ros2_ws/install/sprint2/share/sprint2/environment/path.dsv
+/home/student/ros2_ws/install/sprint2/share/sprint2/local_setup.bash
+/home/student/ros2_ws/install/sprint2/share/sprint2/local_setup.sh
+/home/student/ros2_ws/install/sprint2/share/sprint2/local_setup.zsh
+/home/student/ros2_ws/install/sprint2/share/sprint2/local_setup.dsv
+/home/student/ros2_ws/install/sprint2/share/sprint2/package.dsv
+/home/student/ros2_ws/install/sprint2/share/ament_index/resource_index/packages/sprint2
+/home/student/ros2_ws/install/sprint2/share/sprint2/cmake/sprint2Config.cmake
+/home/student/ros2_ws/install/sprint2/share/sprint2/cmake/sprint2Config-version.cmake
+/home/student/ros2_ws/install/sprint2/share/sprint2/package.xml

@@ -1,0 +1,62 @@
+[0.075s] Invoking command in '/home/student/ros2_ws/build/week2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/week2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/week2
+[11.919s] -- The C compiler identification is GNU 11.4.0
+[11.944s] -- The CXX compiler identification is GNU 11.4.0
+[11.944s] -- Detecting C compiler ABI info
+[11.944s] -- Detecting C compiler ABI info - done
+[11.944s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.945s] -- Detecting C compile features
+[11.945s] -- Detecting C compile features - done
+[11.945s] -- Detecting CXX compiler ABI info
+[11.945s] -- Detecting CXX compiler ABI info - done
+[11.945s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.945s] -- Detecting CXX compile features
+[11.946s] -- Detecting CXX compile features - done
+[11.946s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.946s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.946s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.946s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[11.946s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.947s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.947s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.947s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.947s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.948s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.948s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.948s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.948s] -- Looking for pthread.h
+[11.948s] -- Looking for pthread.h - found
+[11.948s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.949s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.949s] -- Found Threads: TRUE  
+[11.949s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.949s] -- Configuring done
+[11.949s] -- Generating done
+[11.949s] -- Build files have been written to: /home/student/ros2_ws/build/week2
+[11.975s] Invoked command in '/home/student/ros2_ws/build/week2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/week2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/week2
+[11.976s] Invoking command in '/home/student/ros2_ws/build/week2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/week2 -- -j8 -l8
+[12.351s] [ 50%] [32mBuilding CXX object CMakeFiles/week2.dir/src/subscriber_member_function.cpp.o[0m
+[34.093s] [100%] [32m[1mLinking CXX executable week2[0m
+[37.401s] [100%] Built target week2
+[37.424s] Invoked command in '/home/student/ros2_ws/build/week2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/week2 -- -j8 -l8
+[37.512s] Invoking command in '/home/student/ros2_ws/build/week2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/week2
+[40.863s] -- Install configuration: ""
+[40.863s] -- Execute custom install script
+[40.863s] -- Symlinking: /home/student/ros2_ws/install/week2/lib/week2/week2
+[40.863s] -- Symlinking: /home/student/ros2_ws/install/week2/share/ament_index/resource_index/package_run_dependencies/week2
+[40.863s] -- Symlinking: /home/student/ros2_ws/install/week2/share/ament_index/resource_index/parent_prefix_path/week2
+[40.864s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/environment/ament_prefix_path.sh
+[40.864s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/environment/ament_prefix_path.dsv
+[40.864s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/environment/path.sh
+[40.864s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/environment/path.dsv
+[40.864s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/local_setup.bash
+[40.864s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/local_setup.sh
+[40.865s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/local_setup.zsh
+[40.865s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/local_setup.dsv
+[40.865s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/package.dsv
+[40.865s] -- Symlinking: /home/student/ros2_ws/install/week2/share/ament_index/resource_index/packages/week2
+[40.865s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/cmake/week2Config.cmake
+[40.865s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/cmake/week2Config-version.cmake
+[40.866s] -- Symlinking: /home/student/ros2_ws/install/week2/share/week2/package.xml
+[40.875s] Invoked command in '/home/student/ros2_ws/build/week2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/week2

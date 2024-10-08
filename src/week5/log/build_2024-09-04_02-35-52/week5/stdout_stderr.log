@@ -1,0 +1,69 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/student/ros2_ws/src/week5/build/week5
+[ 50%] [32mBuilding CXX object CMakeFiles/week5.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:25:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_image[m[K’ was not declared in this scope; did you mean ‘[01m[Kfirst_image_[m[K’?
+   25 |           [01;31m[Kfirst_image[m[K = img.clone();
+      |           [01;31m[K^~~~~~~~~~~[m[K
+      |           [32m[Kfirst_image_[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:29:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaitkey[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KwaitKey[m[K’?
+   29 |           cv::[01;31m[Kwaitkey[m[K(1);
+      |               [01;31m[K^~~~~~~[m[K
+      |               [32m[KwaitKey[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:34:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksecond_image[m[K’ was not declared in this scope; did you mean ‘[01m[Ksecond_image_[m[K’?
+   34 |           [01;31m[Ksecond_image[m[K = img.clone();
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+      |           [32m[Ksecond_image_[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:38:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaitkey[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KwaitKey[m[K’?
+   38 |           cv::[01;31m[Kwaitkey[m[K(1);
+      |               [01;31m[K^~~~~~~[m[K
+      |               [32m[KwaitKey[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:44:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_image[m[K’ was not declared in this scope; did you mean ‘[01m[Kfirst_image_[m[K’?
+   44 |           [01;31m[Kfirst_image[m[K = second_img.clone();
+      |           [01;31m[K^~~~~~~~~~~[m[K
+      |           [32m[Kfirst_image_[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:44:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksecond_img[m[K’ was not declared in this scope; did you mean ‘[01m[Ksecond_image_[m[K’?
+   44 |           first_image = [01;31m[Ksecond_img[m[K.clone();
+      |                         [01;31m[K^~~~~~~~~~[m[K
+      |                         [32m[Ksecond_image_[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:45:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksecond_image[m[K’ was not declared in this scope; did you mean ‘[01m[Ksecond_image_[m[K’?
+   45 |           [01;31m[Ksecond_image[m[K = img.clone();
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+      |           [32m[Ksecond_image_[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:49:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kwaitkey[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KwaitKey[m[K’?
+   49 |           cv::[01;31m[Kwaitkey[m[K(1);
+      |               [01;31m[K^~~~~~~[m[K
+      |               [32m[KwaitKey[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kcv::Mat ScanToImageNode::laserScanToMat(const SharedPtr&)[m[K’:
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:69:5:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K}[m[K’ token
+   69 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:66:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |         int [01;35m[Ksize[m[K = 500;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:67:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_range[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   67 |         float [01;35m[Kmax_range[m[K = scan->range_max;
+      |               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:69:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   69 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::calculateYawChange()[m[K’:
+[01m[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:83:30:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   83 |         if ([01;35m[KsrcPoints.size() >= 3[m[K & dstPoints.size() >= 3){
+      |             [01;35m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/week5.dir/build.make:76: CMakeFiles/week5.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/week5.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

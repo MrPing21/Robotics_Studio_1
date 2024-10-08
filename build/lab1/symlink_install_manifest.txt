@@ -1,0 +1,16 @@
+/home/student/ros2_ws/install/lab1/lib/lab1/labone
+/home/student/ros2_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+/home/student/ros2_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+/home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+/home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/install/lab1/share/lab1/environment/path.sh
+/home/student/ros2_ws/install/lab1/share/lab1/environment/path.dsv
+/home/student/ros2_ws/install/lab1/share/lab1/local_setup.bash
+/home/student/ros2_ws/install/lab1/share/lab1/local_setup.sh
+/home/student/ros2_ws/install/lab1/share/lab1/local_setup.zsh
+/home/student/ros2_ws/install/lab1/share/lab1/local_setup.dsv
+/home/student/ros2_ws/install/lab1/share/lab1/package.dsv
+/home/student/ros2_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+/home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+/home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+/home/student/ros2_ws/install/lab1/share/lab1/package.xml

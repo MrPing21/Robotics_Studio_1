@@ -1,0 +1,42 @@
+[0.044s] Invoking command in '/home/student/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/robot_localization -- -j8 -l8
+[0.187s] [  1%] Built target robot_localization__cpp
+[0.189s] [  3%] Built target gtest_main
+[0.194s] [  4%] Built target gtest
+[0.210s] [ 11%] Built target robot_localization__rosidl_generator_c
+[0.214s] [ 11%] Built target ament_cmake_python_symlink_robot_localization
+[0.283s] [ 20%] Built target robot_localization__rosidl_typesupport_cpp
+[0.283s] [ 25%] Built target robot_localization__rosidl_typesupport_introspection_cpp
+[0.283s] [ 33%] Built target robot_localization__rosidl_typesupport_fastrtps_c
+[0.292s] [ 41%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp
+[0.294s] [ 48%] Built target robot_localization__rosidl_typesupport_c
+[0.323s] [ 55%] Built target robot_localization__rosidl_typesupport_introspection_c
+[0.366s] [ 63%] Built target rl_lib
+[0.366s] [ 63%] Built target robot_localization
+[0.478s] [ 64%] Built target ekf_node
+[0.490s] [ 66%] Built target ukf_node
+[0.491s] [ 68%] Built target navsat_transform_node
+[0.505s] [ 70%] Built target test_ukf
+[0.507s] [ 71%] Built target test_ekf
+[0.515s] [ 73%] Built target filter_base-test
+[0.541s] [ 75%] Built target robot_localization_listener_node
+[0.616s] [ 77%] Built target test_ros_robot_localization_listener_publisher
+[0.620s] [ 79%] Built target test_navsat_conversions
+[0.629s] [ 80%] Built target test_robot_localization_estimator
+[0.647s] [ 81%] Built target robot_localization__py
+[0.647s] [ 83%] Built target test_ros_robot_localization_listener
+[0.649s] [ 85%] Built target test_filter_base_diagnostics_timestamps
+[0.700s] [ 87%] Built target test_ukf_node_interfaces
+[0.705s] [ 94%] Built target robot_localization__rosidl_generator_py
+[0.733s] [ 95%] Built target test_ekf_node_interfaces
+[0.799s] [ 97%] Built target robot_localization__rosidl_typesupport_c__pyext
+[0.814s] [ 98%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext
+[0.815s] [100%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext
+[0.850s] running egg_info
+[0.850s] writing robot_localization.egg-info/PKG-INFO
+[0.852s] writing dependency_links to robot_localization.egg-info/dependency_links.txt
+[0.853s] writing top-level names to robot_localization.egg-info/top_level.txt
+[0.877s] reading manifest file 'robot_localization.egg-info/SOURCES.txt'
+[0.877s] writing manifest file 'robot_localization.egg-info/SOURCES.txt'
+[0.960s] [100%] Built target ament_cmake_python_build_robot_localization_egg
+[1.010s] Invoked command in '/home/student/ros2_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/robot_localization -- -j8 -l8
+[1.777s] Invoking command in '/home/student/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/robot_localization

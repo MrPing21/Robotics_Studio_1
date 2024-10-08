@@ -1,0 +1,1 @@
+/home/student/ros2_ws/build/week4/ament_cmake_core/week4Config.cmake

@@ -1,0 +1,6 @@
+Invoking command in '/home/student/ros2_ws/src/week5/build/week5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/week5 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/week5/install/week5
+Invoked command in '/home/student/ros2_ws/src/week5/build/week5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/week5 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/src/week5/install/week5
+Invoking command in '/home/student/ros2_ws/src/week5/build/week5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week5/build/week5 -- -j8 -l8
+Invoked command in '/home/student/ros2_ws/src/week5/build/week5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/week5/build/week5 -- -j8 -l8
+Invoking command in '/home/student/ros2_ws/src/week5/build/week5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/week5/build/week5
+Invoked command in '/home/student/ros2_ws/src/week5/build/week5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/week5/build/week5

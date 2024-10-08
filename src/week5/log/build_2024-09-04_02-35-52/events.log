@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000536] (week5) JobQueued: {'identifier': 'week5', 'dependencies': OrderedDict()}
+[0.000807] (week5) JobStarted: {'identifier': 'week5'}
+[0.008315] (week5) JobProgress: {'identifier': 'week5', 'progress': 'cmake'}
+[0.008973] (week5) JobProgress: {'identifier': 'week5', 'progress': 'build'}
+[0.009723] (week5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/week5/build/week5', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/week5/build/week5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '1807'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('SYSTEMD_EXEC_PID', '1925'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/1899,unix/labMGJSX0:/tmp/.ICE-unix/1899'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0cd672cc_0652_4803_9b61_f581da8efd31'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.183'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/week5/build/week5'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.042274] (week5) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099598] (-) TimerEvent: {}
+[0.174173] (week5) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199739] (-) TimerEvent: {}
+[0.203949] (week5) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.206578] (week5) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.212429] (week5) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.222200] (week5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.235874] (week5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.271088] (week5) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.272436] (week5) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299859] (-) TimerEvent: {}
+[0.393040] (week5) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399974] (-) TimerEvent: {}
+[0.445604] (week5) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.487188] (week5) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.500091] (-) TimerEvent: {}
+[0.572966] (week5) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.600309] (-) TimerEvent: {}
+[0.700832] (-) TimerEvent: {}
+[0.801183] (-) TimerEvent: {}
+[0.901549] (-) TimerEvent: {}
+[1.001913] (-) TimerEvent: {}
+[1.040357] (week5) StdoutLine: {'line': b'-- Generating done\n'}
+[1.043096] (week5) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/src/week5/build/week5\n'}
+[1.102093] (-) TimerEvent: {}
+[1.103897] (week5) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/week5.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.202227] (-) TimerEvent: {}
+[1.302696] (-) TimerEvent: {}
+[1.403104] (-) TimerEvent: {}
+[1.503468] (-) TimerEvent: {}
+[1.603928] (-) TimerEvent: {}
+[1.704335] (-) TimerEvent: {}
+[1.804711] (-) TimerEvent: {}
+[1.905081] (-) TimerEvent: {}
+[2.005524] (-) TimerEvent: {}
+[2.105961] (-) TimerEvent: {}
+[2.206345] (-) TimerEvent: {}
+[2.306784] (-) TimerEvent: {}
+[2.407167] (-) TimerEvent: {}
+[2.507540] (-) TimerEvent: {}
+[2.607932] (-) TimerEvent: {}
+[2.708309] (-) TimerEvent: {}
+[2.808753] (-) TimerEvent: {}
+[2.909369] (-) TimerEvent: {}
+[3.009856] (-) TimerEvent: {}
+[3.110336] (-) TimerEvent: {}
+[3.210772] (-) TimerEvent: {}
+[3.311267] (-) TimerEvent: {}
+[3.411819] (-) TimerEvent: {}
+[3.512222] (-) TimerEvent: {}
+[3.612620] (-) TimerEvent: {}
+[3.713118] (-) TimerEvent: {}
+[3.813565] (-) TimerEvent: {}
+[3.914025] (-) TimerEvent: {}
+[4.014466] (-) TimerEvent: {}
+[4.114935] (-) TimerEvent: {}
+[4.215438] (-) TimerEvent: {}
+[4.315866] (-) TimerEvent: {}
+[4.416340] (-) TimerEvent: {}
+[4.516814] (-) TimerEvent: {}
+[4.617257] (-) TimerEvent: {}
+[4.717644] (-) TimerEvent: {}
+[4.818094] (-) TimerEvent: {}
+[4.918545] (-) TimerEvent: {}
+[5.018988] (-) TimerEvent: {}
+[5.119501] (-) TimerEvent: {}
+[5.219946] (-) TimerEvent: {}
+[5.287434] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ScanToImageNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.287763] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:25:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfirst_image\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfirst_image_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.287873] (week5) StderrLine: {'line': b'   25 |           \x1b[01;31m\x1b[Kfirst_image\x1b[m\x1b[K = img.clone();\n'}
+[5.287964] (week5) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.288065] (week5) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kfirst_image_\x1b[m\x1b[K\n'}
+[5.288278] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:29:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwaitkey\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KwaitKey\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.288383] (week5) StderrLine: {'line': b'   29 |           cv::\x1b[01;31m\x1b[Kwaitkey\x1b[m\x1b[K(1);\n'}
+[5.288467] (week5) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.288554] (week5) StderrLine: {'line': b'      |               \x1b[32m\x1b[KwaitKey\x1b[m\x1b[K\n'}
+[5.293881] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:34:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksecond_image\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksecond_image_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.294089] (week5) StderrLine: {'line': b'   34 |           \x1b[01;31m\x1b[Ksecond_image\x1b[m\x1b[K = img.clone();\n'}
+[5.294185] (week5) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.294276] (week5) StderrLine: {'line': b'      |           \x1b[32m\x1b[Ksecond_image_\x1b[m\x1b[K\n'}
+[5.294428] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:38:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwaitkey\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KwaitKey\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.294520] (week5) StderrLine: {'line': b'   38 |           cv::\x1b[01;31m\x1b[Kwaitkey\x1b[m\x1b[K(1);\n'}
+[5.294602] (week5) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.294682] (week5) StderrLine: {'line': b'      |               \x1b[32m\x1b[KwaitKey\x1b[m\x1b[K\n'}
+[5.299544] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:44:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfirst_image\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfirst_image_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.299691] (week5) StderrLine: {'line': b'   44 |           \x1b[01;31m\x1b[Kfirst_image\x1b[m\x1b[K = second_img.clone();\n'}
+[5.299767] (week5) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.299836] (week5) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kfirst_image_\x1b[m\x1b[K\n'}
+[5.306274] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:44:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksecond_img\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksecond_image_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.306439] (week5) StderrLine: {'line': b'   44 |           first_image = \x1b[01;31m\x1b[Ksecond_img\x1b[m\x1b[K.clone();\n'}
+[5.306523] (week5) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.306593] (week5) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Ksecond_image_\x1b[m\x1b[K\n'}
+[5.311273] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:45:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksecond_image\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksecond_image_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.311433] (week5) StderrLine: {'line': b'   45 |           \x1b[01;31m\x1b[Ksecond_image\x1b[m\x1b[K = img.clone();\n'}
+[5.311567] (week5) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.311661] (week5) StderrLine: {'line': b'      |           \x1b[32m\x1b[Ksecond_image_\x1b[m\x1b[K\n'}
+[5.311836] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:49:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwaitkey\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KwaitKey\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.311932] (week5) StderrLine: {'line': b'   49 |           cv::\x1b[01;31m\x1b[Kwaitkey\x1b[m\x1b[K(1);\n'}
+[5.311998] (week5) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.312061] (week5) StderrLine: {'line': b'      |               \x1b[32m\x1b[KwaitKey\x1b[m\x1b[K\n'}
+[5.312484] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat ScanToImageNode::laserScanToMat(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.312559] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:69:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.312625] (week5) StderrLine: {'line': b'   69 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[5.312689] (week5) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.316064] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:66:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.316204] (week5) StderrLine: {'line': b'   66 |         int \x1b[01;35m\x1b[Ksize\x1b[m\x1b[K = 500;\n'}
+[5.316280] (week5) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.316348] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:67:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmax_range\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.316428] (week5) StderrLine: {'line': b'   67 |         float \x1b[01;35m\x1b[Kmax_range\x1b[m\x1b[K = scan->range_max;\n'}
+[5.316494] (week5) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.316558] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:69:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.316631] (week5) StderrLine: {'line': b'   69 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[5.316693] (week5) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.319430] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ScanToImageNode::calculateYawChange()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.319575] (week5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/week5/src/publisher_member_function.cpp:83:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ksuggest parentheses around comparison in operand of \xe2\x80\x98\x1b[01m\x1b[K&\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.319663] (week5) StderrLine: {'line': b'   83 |         if (\x1b[01;35m\x1b[KsrcPoints.size() >= 3\x1b[m\x1b[K & dstPoints.size() >= 3){\n'}
+[5.319732] (week5) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.320001] (-) TimerEvent: {}
+[5.420260] (-) TimerEvent: {}
+[5.520637] (-) TimerEvent: {}
+[5.621031] (-) TimerEvent: {}
+[5.721419] (-) TimerEvent: {}
+[5.821941] (-) TimerEvent: {}
+[5.922392] (-) TimerEvent: {}
+[6.022854] (-) TimerEvent: {}
+[6.123295] (-) TimerEvent: {}
+[6.223699] (-) TimerEvent: {}
+[6.324154] (-) TimerEvent: {}
+[6.424618] (-) TimerEvent: {}
+[6.525022] (-) TimerEvent: {}
+[6.625390] (-) TimerEvent: {}
+[6.725844] (-) TimerEvent: {}
+[6.826291] (-) TimerEvent: {}
+[6.926753] (-) TimerEvent: {}
+[7.027151] (-) TimerEvent: {}
+[7.127554] (-) TimerEvent: {}
+[7.227956] (-) TimerEvent: {}
+[7.328412] (-) TimerEvent: {}
+[7.428825] (-) TimerEvent: {}
+[7.529282] (-) TimerEvent: {}
+[7.629681] (-) TimerEvent: {}
+[7.730164] (-) TimerEvent: {}
+[7.830634] (-) TimerEvent: {}
+[7.931104] (-) TimerEvent: {}
+[8.031572] (-) TimerEvent: {}
+[8.132046] (-) TimerEvent: {}
+[8.232536] (-) TimerEvent: {}
+[8.333021] (-) TimerEvent: {}
+[8.433487] (-) TimerEvent: {}
+[8.516916] (week5) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/week5.dir/build.make:76: CMakeFiles/week5.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[8.517248] (week5) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/week5.dir/all] Error 2\n'}
+[8.517465] (week5) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.519764] (week5) CommandEnded: {'returncode': 2}
+[8.533591] (-) TimerEvent: {}
+[8.560316] (week5) JobEnded: {'identifier': 'week5', 'rc': 2}
+[8.570834] (-) EventReactorShutdown: {}

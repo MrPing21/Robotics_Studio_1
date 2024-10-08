@@ -1,0 +1,27 @@
+[0.066s] Invoking command in '/home/student/ros2_ws/build/map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/map_server -- -j8 -l8
+[0.262s] [ 50%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server.cpp.o[0m
+[9.718s] [100%] [32m[1mLinking CXX executable map_server[0m
+[10.334s] [100%] Built target map_server
+[10.352s] Invoked command in '/home/student/ros2_ws/build/map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/map_server -- -j8 -l8
+[10.394s] Invoking command in '/home/student/ros2_ws/build/map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/map_server
+[10.407s] -- Install configuration: ""
+[10.407s] -- Installing: /home/student/ros2_ws/install/map_server/lib/map_server/map_server
+[10.410s] -- Set runtime path of "/home/student/ros2_ws/install/map_server/lib/map_server/map_server" to ""
+[10.410s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server//data
+[10.410s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server//data/map.pgm
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/ament_index/resource_index/package_run_dependencies/map_server
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/ament_index/resource_index/parent_prefix_path/map_server
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/environment/ament_prefix_path.sh
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/environment/ament_prefix_path.dsv
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/environment/path.sh
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/environment/path.dsv
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/local_setup.bash
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/local_setup.sh
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/local_setup.zsh
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/local_setup.dsv
+[10.411s] -- Installing: /home/student/ros2_ws/install/map_server/share/map_server/package.dsv
+[10.411s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/ament_index/resource_index/packages/map_server
+[10.412s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/cmake/map_serverConfig.cmake
+[10.412s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/cmake/map_serverConfig-version.cmake
+[10.412s] -- Up-to-date: /home/student/ros2_ws/install/map_server/share/map_server/package.xml
+[10.413s] Invoked command in '/home/student/ros2_ws/build/map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/map_server

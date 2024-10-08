@@ -1,0 +1,207 @@
+[0.037s] Invoking command in '/home/student/ros2_ws/build/gazebo_map_creator_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/gazebo_map_creator/gazebo_map_creator_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/gazebo_map_creator_interface
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.317s] -- The CXX compiler identification is GNU 11.4.0
+[0.329s] -- Detecting C compiler ABI info
+[0.505s] -- Detecting C compiler ABI info - done
+[0.519s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.519s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.526s] -- Detecting CXX compiler ABI info
+[0.699s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.720s] -- Detecting CXX compile features
+[0.721s] -- Detecting CXX compile features - done
+[0.725s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.070s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.278s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.338s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.348s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.361s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.438s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.489s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.209s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.214s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.231s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.236s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.310s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.634s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.634s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.685s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.685s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.685s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.686s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.741s] -- Found PythonExtra: .so  
+[3.939s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.942s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.961s] -- Configuring done
+[4.045s] -- Generating done
+[4.050s] -- Build files have been written to: /home/student/ros2_ws/build/gazebo_map_creator_interface
+[4.082s] Invoked command in '/home/student/ros2_ws/build/gazebo_map_creator_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/gazebo_map_creator/gazebo_map_creator_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/gazebo_map_creator_interface
+[4.083s] Invoking command in '/home/student/ros2_ws/build/gazebo_map_creator_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/gazebo_map_creator_interface -- -j8 -l8
+[4.256s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.256s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.456s] [  6%] Built target ament_cmake_python_symlink_gazebo_map_creator_interface
+[5.293s] [  9%] [32mBuilding C object CMakeFiles/gazebo_map_creator_interface__rosidl_generator_c.dir/rosidl_generator_c/gazebo_map_creator_interface/srv/detail/map_request__functions.c.o[0m
+[5.670s] [ 12%] [32m[1mLinking C shared library libgazebo_map_creator_interface__rosidl_generator_c.so[0m
+[5.783s] [ 12%] Built target gazebo_map_creator_interface__cpp
+[5.797s] running egg_info
+[5.799s] creating gazebo_map_creator_interface.egg-info
+[5.799s] writing gazebo_map_creator_interface.egg-info/PKG-INFO
+[5.799s] writing dependency_links to gazebo_map_creator_interface.egg-info/dependency_links.txt
+[5.800s] writing top-level names to gazebo_map_creator_interface.egg-info/top_level.txt
+[5.800s] writing manifest file 'gazebo_map_creator_interface.egg-info/SOURCES.txt'
+[5.813s] reading manifest file 'gazebo_map_creator_interface.egg-info/SOURCES.txt'
+[5.814s] writing manifest file 'gazebo_map_creator_interface.egg-info/SOURCES.txt'
+[5.881s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.891s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.893s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.940s] [ 22%] Built target gazebo_map_creator_interface__rosidl_generator_c
+[5.972s] [ 22%] Built target ament_cmake_python_build_gazebo_map_creator_interface_egg
+[6.026s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.053s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.063s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.494s] [ 35%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gazebo_map_creator_interface/srv/map_request__type_support.cpp.o[0m
+[7.875s] [ 38%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/gazebo_map_creator_interface/srv/map_request__type_support.cpp.o[0m
+[7.906s] [ 41%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gazebo_map_creator_interface/srv/detail/map_request__type_support_c.cpp.o[0m
+[8.001s] [ 45%] [32m[1mLinking CXX shared library libgazebo_map_creator_interface__rosidl_typesupport_c.so[0m
+[8.104s] [ 48%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_map_creator_interface/srv/detail/map_request__type_support.cpp.o[0m
+[8.310s] [ 48%] Built target gazebo_map_creator_interface__rosidl_typesupport_c
+[8.357s] [ 51%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gazebo_map_creator_interface/srv/detail/dds_fastrtps/map_request__type_support.cpp.o[0m
+[8.390s] [ 54%] [32m[1mLinking CXX shared library libgazebo_map_creator_interface__rosidl_typesupport_cpp.so[0m
+[8.411s] [ 58%] [32mBuilding C object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gazebo_map_creator_interface/srv/detail/map_request__type_support.c.o[0m
+[8.581s] [ 58%] Built target gazebo_map_creator_interface__rosidl_typesupport_cpp
+[8.607s] [ 61%] [32m[1mLinking C shared library libgazebo_map_creator_interface__rosidl_typesupport_introspection_c.so[0m
+[8.791s] [ 61%] Built target gazebo_map_creator_interface__rosidl_typesupport_introspection_c
+[9.679s] [ 64%] [32m[1mLinking CXX shared library libgazebo_map_creator_interface__rosidl_typesupport_fastrtps_c.so[0m
+[9.786s] [ 67%] [32m[1mLinking CXX shared library libgazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.so[0m
+[10.155s] [ 67%] Built target gazebo_map_creator_interface__rosidl_typesupport_fastrtps_c
+[10.155s] [ 67%] Built target gazebo_map_creator_interface__rosidl_typesupport_introspection_cpp
+[10.692s] [ 70%] [32m[1mLinking CXX shared library libgazebo_map_creator_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.027s] [ 70%] Built target gazebo_map_creator_interface__rosidl_typesupport_fastrtps_cpp
+[11.099s] [ 70%] Built target gazebo_map_creator_interface
+[11.369s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.097s] [ 74%] Built target gazebo_map_creator_interface__py
+[14.365s] [ 77%] [32mBuilding C object CMakeFiles/gazebo_map_creator_interface__rosidl_generator_py.dir/rosidl_generator_py/gazebo_map_creator_interface/srv/_map_request_s.c.o[0m
+[14.949s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_map_creator_interface/libgazebo_map_creator_interface__rosidl_generator_py.so[0m
+[15.288s] [ 80%] Built target gazebo_map_creator_interface__rosidl_generator_py
+[15.418s] [ 83%] [32mBuilding C object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gazebo_map_creator_interface/_gazebo_map_creator_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.705s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.868s] [ 87%] Built target gazebo_map_creator_interface__rosidl_typesupport_fastrtps_c__pyext
+[15.915s] [ 90%] [32mBuilding C object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gazebo_map_creator_interface/_gazebo_map_creator_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[16.305s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.546s] [ 93%] Built target gazebo_map_creator_interface__rosidl_typesupport_c__pyext
+[16.696s] [ 96%] [32mBuilding C object CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gazebo_map_creator_interface/_gazebo_map_creator_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.161s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.367s] [100%] Built target gazebo_map_creator_interface__rosidl_typesupport_introspection_c__pyext
+[17.439s] Invoked command in '/home/student/ros2_ws/build/gazebo_map_creator_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/gazebo_map_creator_interface -- -j8 -l8
+[18.553s] Invoking command in '/home/student/ros2_ws/build/gazebo_map_creator_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/gazebo_map_creator_interface
+[19.964s] -- Install configuration: ""
+[19.964s] -- Execute custom install script
+[19.964s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/ament_index/resource_index/rosidl_interfaces/gazebo_map_creator_interface
+[19.964s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/msg/rosidl_generator_c__visibility_control.h
+[19.964s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__functions.h
+[19.964s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__struct.h
+[19.965s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__type_support.h
+[19.965s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/map_request.h
+[19.965s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/library_path.sh
+[19.965s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/library_path.dsv
+[19.965s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.965s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_fastrtps_c.h
+[19.965s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__builder.hpp
+[19.966s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__struct.hpp
+[19.967s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__traits.hpp
+[19.967s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/map_request.hpp
+[19.967s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.968s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_fastrtps_cpp.hpp
+[19.968s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.969s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_introspection_c.h
+[19.969s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_introspection_cpp.hpp
+[19.970s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/pythonpath.sh
+[19.970s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/pythonpath.dsv
+[19.971s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface-3.5.3-py3.10.egg-info/PKG-INFO
+[19.971s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface-3.5.3-py3.10.egg-info/SOURCES.txt
+[19.971s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface-3.5.3-py3.10.egg-info/dependency_links.txt
+[19.972s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface-3.5.3-py3.10.egg-info/top_level.txt
+[19.973s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/__init__.py
+[19.973s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/_gazebo_map_creator_interface_s.ep.rosidl_typesupport_c.c
+[19.973s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/_gazebo_map_creator_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[19.974s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/_gazebo_map_creator_interface_s.ep.rosidl_typesupport_introspection_c.c
+[19.974s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.974s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.974s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.975s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/libgazebo_map_creator_interface__rosidl_generator_py.so
+[19.975s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/srv/__init__.py
+[19.976s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/srv/_map_request.py
+[19.976s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/srv/_map_request_s.c
+[19.976s] -- Up-to-date symlink: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[19.976s] -- Up-to-date symlink: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[19.977s] -- Up-to-date symlink: /home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[19.977s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/srv/MapRequest.idl
+[20.029s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/srv/MapRequest.srv
+[20.058s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/srv/MapRequest_Request.msg
+[20.111s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/srv/MapRequest_Response.msg
+[20.146s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/ament_index/resource_index/package_run_dependencies/gazebo_map_creator_interface
+[20.208s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/ament_index/resource_index/parent_prefix_path/gazebo_map_creator_interface
+[20.246s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/ament_prefix_path.sh
+[20.316s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/ament_prefix_path.dsv
+[20.364s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/path.sh
+[20.416s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/path.dsv
+[20.464s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/local_setup.bash
+[20.508s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/local_setup.sh
+[20.582s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/local_setup.zsh
+[20.642s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/local_setup.dsv
+[20.664s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/package.dsv
+[20.701s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/ament_index/resource_index/packages/gazebo_map_creator_interface
+[20.738s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/rosidl_cmake-extras.cmake
+[20.796s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.855s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.914s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[20.959s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/ament_cmake_export_targets-extras.cmake
+[20.992s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[21.017s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[21.051s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interfaceConfig.cmake
+[21.073s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interfaceConfig-version.cmake
+[21.094s] -- Symlinking: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/package.xml
+[21.126s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_generator_c.so
+[21.126s] -- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_generator_c.so" to ""
+[21.126s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_fastrtps_c.so
+[21.126s] -- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[21.127s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_fastrtps_cpp.so
+[21.127s] -- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[21.127s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_introspection_c.so
+[21.127s] -- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_introspection_c.so" to ""
+[21.128s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_c.so
+[21.128s] -- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_c.so" to ""
+[21.128s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.so
+[21.128s] -- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[21.128s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_cpp.so
+[21.128s] -- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_cpp.so" to ""
+[21.185s] Listing '/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface'...
+[21.185s] Compiling '/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/__init__.py'...
+[21.185s] Listing '/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/srv'...
+[21.185s] Compiling '/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/srv/__init__.py'...
+[21.186s] Compiling '/home/student/ros2_ws/install/gazebo_map_creator_interface/local/lib/python3.10/dist-packages/gazebo_map_creator_interface/srv/_map_request.py'...
+[21.210s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_generator_py.so
+[21.211s] -- Set runtime path of "/home/student/ros2_ws/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_generator_py.so" to ""
+[21.211s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_generator_cExport.cmake
+[21.212s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_generator_cExport-noconfig.cmake
+[21.212s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[21.212s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[21.212s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_generator_cppExport.cmake
+[21.212s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[21.213s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[21.213s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_introspection_cExport.cmake
+[21.213s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[21.214s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_cExport.cmake
+[21.214s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_cExport-noconfig.cmake
+[21.214s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_introspection_cppExport.cmake
+[21.214s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[21.215s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_cppExport.cmake
+[21.215s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[21.215s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_generator_pyExport.cmake
+[21.215s] -- Installing: /home/student/ros2_ws/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/export_gazebo_map_creator_interface__rosidl_generator_pyExport-noconfig.cmake
+[21.220s] Invoked command in '/home/student/ros2_ws/build/gazebo_map_creator_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/gazebo_map_creator_interface

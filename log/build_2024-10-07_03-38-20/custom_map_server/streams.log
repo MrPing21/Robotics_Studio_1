@@ -1,0 +1,28 @@
+[0.058s] Invoking command in '/home/student/ros2_ws/build/custom_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/custom_map_server -- -j8 -l8
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target map_server[0m
+[0.200s] [ 50%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server.cpp.o[0m
+[8.927s] [100%] [32m[1mLinking CXX executable map_server[0m
+[9.525s] [100%] Built target map_server
+[9.541s] Invoked command in '/home/student/ros2_ws/build/custom_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/custom_map_server -- -j8 -l8
+[9.582s] Invoking command in '/home/student/ros2_ws/build/custom_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/custom_map_server
+[9.594s] -- Install configuration: ""
+[9.594s] -- Installing: /home/student/ros2_ws/install/custom_map_server/lib/custom_map_server/map_server
+[9.597s] -- Set runtime path of "/home/student/ros2_ws/install/custom_map_server/lib/custom_map_server/map_server" to ""
+[9.597s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server//data
+[9.597s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server//data/map.pgm
+[9.597s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/ament_index/resource_index/package_run_dependencies/custom_map_server
+[9.597s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/ament_index/resource_index/parent_prefix_path/custom_map_server
+[9.597s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/environment/ament_prefix_path.sh
+[9.598s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/environment/ament_prefix_path.dsv
+[9.598s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/environment/path.sh
+[9.598s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/environment/path.dsv
+[9.598s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/local_setup.bash
+[9.598s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/local_setup.sh
+[9.598s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/local_setup.zsh
+[9.598s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/local_setup.dsv
+[9.599s] -- Installing: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/package.dsv
+[9.600s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/ament_index/resource_index/packages/custom_map_server
+[9.600s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/cmake/custom_map_serverConfig.cmake
+[9.600s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/cmake/custom_map_serverConfig-version.cmake
+[9.601s] -- Up-to-date: /home/student/ros2_ws/install/custom_map_server/share/custom_map_server/package.xml
+[9.601s] Invoked command in '/home/student/ros2_ws/build/custom_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/custom_map_server

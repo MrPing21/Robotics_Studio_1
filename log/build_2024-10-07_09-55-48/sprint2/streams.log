@@ -1,0 +1,23 @@
+[0.022s] Invoking command in '/home/student/ros2_ws/build/sprint2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint2 -- -j8 -l8
+[0.203s] [100%] Built target sprint2
+[0.244s] Invoked command in '/home/student/ros2_ws/build/sprint2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint2 -- -j8 -l8
+[0.383s] Invoking command in '/home/student/ros2_ws/build/sprint2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint2
+[0.401s] -- Install configuration: ""
+[0.402s] -- Execute custom install script
+[0.409s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/lib/sprint2/sprint2
+[0.409s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/ament_index/resource_index/package_run_dependencies/sprint2
+[0.410s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/ament_index/resource_index/parent_prefix_path/sprint2
+[0.411s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/environment/ament_prefix_path.sh
+[0.412s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/environment/ament_prefix_path.dsv
+[0.413s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/environment/path.sh
+[0.414s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/environment/path.dsv
+[0.414s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/local_setup.bash
+[0.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/local_setup.sh
+[0.416s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/local_setup.zsh
+[0.417s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/local_setup.dsv
+[0.418s] -- Symlinking: /home/student/ros2_ws/install/sprint2/share/sprint2/package.dsv
+[0.440s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/ament_index/resource_index/packages/sprint2
+[0.440s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/cmake/sprint2Config.cmake
+[0.441s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/cmake/sprint2Config-version.cmake
+[0.441s] -- Up-to-date symlink: /home/student/ros2_ws/install/sprint2/share/sprint2/package.xml
+[0.444s] Invoked command in '/home/student/ros2_ws/build/sprint2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint2

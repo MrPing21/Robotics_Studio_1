@@ -1,0 +1,16 @@
+/home/student/ros2_ws/install/sprint_3/lib/sprint_3/cylinder_detection_node
+/home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/package_run_dependencies/sprint_3
+/home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/parent_prefix_path/sprint_3
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/ament_prefix_path.sh
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/ament_prefix_path.dsv
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/path.sh
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/path.dsv
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.bash
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.sh
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.zsh
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.dsv
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/package.dsv
+/home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/packages/sprint_3
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/cmake/sprint_3Config.cmake
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/cmake/sprint_3Config-version.cmake
+/home/student/ros2_ws/install/sprint_3/share/sprint_3/package.xml

@@ -1,0 +1,23 @@
+[2.202s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8
+[2.518s] [100%] Built target labone
+[3.201s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8
+[4.002s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/lab1
+[4.021s] -- Install configuration: ""
+[4.021s] -- Execute custom install script
+[4.021s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/lib/lab1/labone
+[4.022s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+[4.022s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+[4.023s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+[4.023s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+[4.024s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.sh
+[4.024s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.dsv
+[4.024s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.bash
+[4.024s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.sh
+[4.025s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.zsh
+[4.025s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.dsv
+[4.025s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/package.dsv
+[4.033s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+[4.033s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+[4.033s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+[4.034s] -- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/package.xml
+[4.227s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/lab1

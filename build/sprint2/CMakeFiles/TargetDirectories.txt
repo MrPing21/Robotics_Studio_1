@@ -1,0 +1,10 @@
+/home/student/ros2_ws/build/sprint2/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/sprint2_uninstall.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/sprint2.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/test.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/install.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/install/local.dir
+/home/student/ros2_ws/build/sprint2/CMakeFiles/install/strip.dir

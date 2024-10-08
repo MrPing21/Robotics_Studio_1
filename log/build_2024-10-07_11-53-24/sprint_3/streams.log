@@ -1,0 +1,26 @@
+[0.029s] Invoking command in '/home/student/ros2_ws/build/sprint_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint_3 -- -j8 -l8
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.167s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[10.203s] [100%] [32m[1mLinking CXX executable cylinder_detection_node[0m
+[10.738s] [100%] Built target cylinder_detection_node
+[10.752s] Invoked command in '/home/student/ros2_ws/build/sprint_3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint_3 -- -j8 -l8
+[10.792s] Invoking command in '/home/student/ros2_ws/build/sprint_3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint_3
+[10.803s] -- Install configuration: ""
+[10.803s] -- Installing: /home/student/ros2_ws/install/sprint_3/lib/sprint_3/cylinder_detection_node
+[10.810s] -- Set runtime path of "/home/student/ros2_ws/install/sprint_3/lib/sprint_3/cylinder_detection_node" to ""
+[10.810s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/package_run_dependencies/sprint_3
+[10.810s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/parent_prefix_path/sprint_3
+[10.810s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/ament_prefix_path.sh
+[10.810s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/ament_prefix_path.dsv
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/path.sh
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/path.dsv
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.bash
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.sh
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.zsh
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.dsv
+[10.811s] -- Installing: /home/student/ros2_ws/install/sprint_3/share/sprint_3/package.dsv
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/packages/sprint_3
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/cmake/sprint_3Config.cmake
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/cmake/sprint_3Config-version.cmake
+[10.811s] -- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/package.xml
+[10.814s] Invoked command in '/home/student/ros2_ws/build/sprint_3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint_3

@@ -1,0 +1,28 @@
+[0.089s] Invoking command in '/home/student/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlesim -- -j8 -l8
+[0.225s] [ 10%] Built target turtlesim__rosidl_generator_c
+[0.226s] [ 11%] Built target turtlesim__cpp
+[0.266s] [ 11%] Built target ament_cmake_python_symlink_turtlesim
+[0.350s] [ 21%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[0.379s] [ 31%] Built target turtlesim__rosidl_typesupport_c
+[0.385s] [ 41%] Built target turtlesim__rosidl_typesupport_cpp
+[0.402s] [ 51%] Built target turtlesim__rosidl_typesupport_introspection_c
+[0.414s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[0.417s] [ 71%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[0.502s] [ 73%] Built target draw_square
+[0.504s] [ 75%] Built target turtle_teleop_key
+[0.515s] [ 81%] Built target turtlesim_node
+[0.553s] [ 81%] Built target turtlesim
+[0.557s] [ 83%] Built target mimic
+[0.609s] [ 84%] Built target turtlesim__py
+[0.657s] [ 93%] Built target turtlesim__rosidl_generator_py
+[0.731s] [ 95%] Built target turtlesim__rosidl_typesupport_c__pyext
+[0.734s] [ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[0.738s] [100%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[0.787s] running egg_info
+[0.789s] writing turtlesim.egg-info/PKG-INFO
+[0.790s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[0.792s] writing top-level names to turtlesim.egg-info/top_level.txt
+[0.805s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.806s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[0.852s] [100%] Built target ament_cmake_python_build_turtlesim_egg
+[0.919s] Invoked command in '/home/student/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlesim -- -j8 -l8

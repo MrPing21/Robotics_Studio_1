@@ -1,2 +1,1 @@
-source;share/lab1/environment/ament_prefix_path.sh
-source;share/lab1/environment/path.sh
+/home/student/ros2_ws/build/lab1/ament_cmake_environment_hooks/local_setup.dsv

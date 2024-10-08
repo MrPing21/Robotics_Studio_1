@@ -1,0 +1,19 @@
+[100%] Built target labone
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/lib/lab1/labone
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.bash
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.zsh
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.dsv
+-- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/package.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/install/lab1/share/lab1/package.xml

@@ -1,0 +1,19 @@
+[100%] Built target week4
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/lib/week4/week4
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/ament_index/resource_index/package_run_dependencies/week4
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/ament_index/resource_index/parent_prefix_path/week4
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/environment/path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/environment/path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/local_setup.bash
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/local_setup.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/local_setup.zsh
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/local_setup.dsv
+-- Symlinking: /home/student/ros2_ws/install/week4/share/week4/package.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/ament_index/resource_index/packages/week4
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/cmake/week4Config.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/cmake/week4Config-version.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/install/week4/share/week4/package.xml

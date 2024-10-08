@@ -1,0 +1,10 @@
+/home/student/ros2_ws/build/week4/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/week4_uninstall.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/week4.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/test.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/install.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/install/local.dir
+/home/student/ros2_ws/build/week4/CMakeFiles/install/strip.dir

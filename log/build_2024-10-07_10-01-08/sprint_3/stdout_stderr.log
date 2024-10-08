@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cylinder_detection_node[0m
+[100%] Built target cylinder_detection_node
+-- Install configuration: ""
+-- Installing: /home/student/ros2_ws/install/sprint_3/lib/sprint_3/cylinder_detection_node
+-- Set runtime path of "/home/student/ros2_ws/install/sprint_3/lib/sprint_3/cylinder_detection_node" to ""
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/package_run_dependencies/sprint_3
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/parent_prefix_path/sprint_3
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/path.sh
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/environment/path.dsv
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.bash
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.sh
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.zsh
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/sprint_3/share/sprint_3/package.dsv
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/ament_index/resource_index/packages/sprint_3
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/cmake/sprint_3Config.cmake
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/cmake/sprint_3Config-version.cmake
+-- Up-to-date: /home/student/ros2_ws/install/sprint_3/share/sprint_3/package.xml

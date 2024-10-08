@@ -1,0 +1,64 @@
+[0.034s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/lab1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/lab1
+[0.177s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.302s] -- Detecting C compiler ABI info
+[0.566s] -- Detecting C compiler ABI info - done
+[0.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.571s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.592s] -- Detecting CXX compiler ABI info
+[1.069s] -- Detecting CXX compiler ABI info - done
+[1.096s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.097s] -- Detecting CXX compile features
+[1.097s] -- Detecting CXX compile features - done
+[1.135s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.774s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.922s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.029s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.208s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.233s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.280s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.579s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.584s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.442s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.585s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.779s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.855s] -- Looking for pthread.h
+[4.574s] -- Looking for pthread.h - found
+[4.575s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.125s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.127s] -- Found Threads: TRUE  
+[5.305s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.379s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[5.413s] -- Found OpenCV: /usr (found version "4.5.4") 
+[5.742s] -- Configuring done
+[6.448s] -- Generating done
+[6.471s] -- Build files have been written to: /home/student/ros2_ws/build/lab1
+[6.552s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/lab1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/lab1
+[6.553s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8
+[10.924s] [ 50%] [32mBuilding CXX object CMakeFiles/labone.dir/src/subscriber_member_function.cpp.o[0m
+[37.419s] [100%] [32m[1mLinking CXX executable labone[0m
+[42.441s] [100%] Built target labone
+[42.485s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/lab1 -- -j8 -l8
+[42.959s] Invoking command in '/home/student/ros2_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/lab1
+[46.394s] -- Install configuration: ""
+[46.395s] -- Execute custom install script
+[46.395s] -- Symlinking: /home/student/ros2_ws/install/lab1/lib/lab1/labone
+[46.395s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+[46.396s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+[46.397s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+[46.397s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+[46.397s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.sh
+[46.398s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/environment/path.dsv
+[46.398s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.bash
+[46.398s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.sh
+[46.399s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.zsh
+[46.400s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/local_setup.dsv
+[46.400s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/package.dsv
+[46.400s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+[46.400s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+[46.400s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+[46.401s] -- Symlinking: /home/student/ros2_ws/install/lab1/share/lab1/package.xml
+[46.438s] Invoked command in '/home/student/ros2_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/lab1

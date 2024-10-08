@@ -1,0 +1,19 @@
+[100%] Built target week5
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/lib/week5/week5
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/ament_index/resource_index/package_run_dependencies/week5
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/ament_index/resource_index/parent_prefix_path/week5
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/environment/path.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/environment/path.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/local_setup.bash
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/local_setup.sh
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/local_setup.zsh
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/local_setup.dsv
+-- Symlinking: /home/student/ros2_ws/install/week5/share/week5/package.dsv
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/ament_index/resource_index/packages/week5
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/cmake/week5Config.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/cmake/week5Config-version.cmake
+-- Up-to-date symlink: /home/student/ros2_ws/install/week5/share/week5/package.xml
