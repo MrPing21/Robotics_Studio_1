@@ -1,6 +1,7 @@
 /home/student/ros2_ws/src/sprint_3/build/CMakeFiles/uninstall.dir
 /home/student/ros2_ws/src/sprint_3/build/CMakeFiles/sprint_3_uninstall.dir
 /home/student/ros2_ws/src/sprint_3/build/CMakeFiles/cylinder_detection_node.dir
+/home/student/ros2_ws/src/sprint_3/build/CMakeFiles/doc.dir
 /home/student/ros2_ws/src/sprint_3/build/CMakeFiles/test.dir
 /home/student/ros2_ws/src/sprint_3/build/CMakeFiles/edit_cache.dir
 /home/student/ros2_ws/src/sprint_3/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,42 @@
+/**
+ * @mainpage Cylinder Detection Node Documentation
+ *
+ * @section intro_sec Introduction
+ *
+ * This is the documentation for the `sprint_3` package, which includes a ROS 2 node 
+ * designed for detecting cylindrical objects using LaserScan data.
+ *
+ * @section author_sec Author
+ *
+ * This package was developed by Jack Gruber.
+ *
+ * @section usage_sec Usage
+ *
+ * The main class is `CylinderDetectionNode`, which subscribes to LaserScan messages 
+ * and processes the data to detect cylindrical objects.
+ *
+ * @section features_sec Features
+ *
+ * - Subscribes to LaserScan data.
+ * - Converts polar coordinates to Cartesian coordinates.
+ * - Clusters points to identify potential cylindrical objects.
+ * - Checks for cylindrical shapes based on clustered points.
+ * - Logs detected cylinders with their midpoints.
+ *
+ * @section installation_sec Installation
+ *
+ * To install and use the `sprint_3` package, follow these steps:
+ * 1. Clone the package into your ROS 2 workspace.
+ * 2. Build the workspace using `colcon build`.
+ * 3. Source the workspace: `source install/setup.bash`.
+ * 4. Run the node: `ros2 run sprint_3 cylinder_detection_node`.
+ *
+ * @section todo_sec TODO
+ *
+ * - Implement visualization of detected cylinders.
+ * - Optimize clustering and cylindrical shape detection algorithms.
+ *
+ * @section license_sec License
+ *
+ * This package is licensed under the MIT License.
+ */

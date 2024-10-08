@@ -1,0 +1,25 @@
+\hypertarget{index_intro_sec}{}\doxysection{Introduction}\label{index_intro_sec}
+This is the documentation for the {\ttfamily sprint\+\_\+3} package, which includes a ROS 2 node designed for detecting cylindrical objects using Laser\+Scan data.\hypertarget{index_author_sec}{}\doxysection{Author}\label{index_author_sec}
+This package was developed by Jack Gruber.\hypertarget{index_usage_sec}{}\doxysection{Usage}\label{index_usage_sec}
+The main class is {\ttfamily \mbox{\hyperlink{classCylinderDetectionNode}{Cylinder\+Detection\+Node}}}, which subscribes to Laser\+Scan messages and processes the data to detect cylindrical objects.\hypertarget{index_features_sec}{}\doxysection{Features}\label{index_features_sec}
+
+\begin{DoxyItemize}
+\item Subscribes to Laser\+Scan data.
+\item Converts polar coordinates to Cartesian coordinates.
+\item Clusters points to identify potential cylindrical objects.
+\item Checks for cylindrical shapes based on clustered points.
+\item Logs detected cylinders with their midpoints.
+\end{DoxyItemize}\hypertarget{index_installation_sec}{}\doxysection{Installation}\label{index_installation_sec}
+To install and use the {\ttfamily sprint\+\_\+3} package, follow these steps\+:
+\begin{DoxyEnumerate}
+\item Clone the package into your ROS 2 workspace.
+\item Build the workspace using {\ttfamily colcon build}.
+\item Source the workspace\+: {\ttfamily source install/setup.\+bash}.
+\item Run the node\+: {\ttfamily ros2 run sprint\+\_\+3 cylinder\+\_\+detection\+\_\+node}.
+\end{DoxyEnumerate}\hypertarget{index_todo_sec}{}\doxysection{TODO}\label{index_todo_sec}
+
+\begin{DoxyItemize}
+\item Implement visualization of detected cylinders.
+\item Optimize clustering and cylindrical shape detection algorithms.
+\end{DoxyItemize}\hypertarget{index_license_sec}{}\doxysection{License}\label{index_license_sec}
+This package is licensed under the MIT License. 

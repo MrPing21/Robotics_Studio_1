@@ -210,6 +210,19 @@ cylinder_detection_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cylinder_detection_node.dir/build.make CMakeFiles/cylinder_detection_node.dir/build
 .PHONY : cylinder_detection_node/fast
 
+#=============================================================================
+# Target rules for targets named doc
+
+# Build rule for target.
+doc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 doc
+.PHONY : doc
+
+# fast build rule for target.
+doc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
+.PHONY : doc/fast
+
 src/cylinder_detection_node.o: src/cylinder_detection_node.cpp.o
 .PHONY : src/cylinder_detection_node.o
 
@@ -247,6 +260,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... doc"
 	@echo "... sprint_3_uninstall"
 	@echo "... uninstall"
 	@echo "... cylinder_detection_node"

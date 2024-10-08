@@ -74,6 +74,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/sprint_3_uninstall.dir/clean
 clean: CMakeFiles/cylinder_detection_node.dir/clean
+clean: CMakeFiles/doc.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +154,32 @@ cylinder_detection_node: CMakeFiles/cylinder_detection_node.dir/rule
 CMakeFiles/cylinder_detection_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cylinder_detection_node.dir/build.make CMakeFiles/cylinder_detection_node.dir/clean
 .PHONY : CMakeFiles/cylinder_detection_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/doc.dir
+
+# All Build rule for target.
+CMakeFiles/doc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/ros2_ws/src/sprint_3/build/CMakeFiles --progress-num=3 "Built target doc"
+.PHONY : CMakeFiles/doc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/doc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ros2_ws/src/sprint_3/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/doc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/ros2_ws/src/sprint_3/build/CMakeFiles 0
+.PHONY : CMakeFiles/doc.dir/rule
+
+# Convenience name for target.
+doc: CMakeFiles/doc.dir/rule
+.PHONY : doc
+
+# clean rule for target.
+CMakeFiles/doc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/clean
+.PHONY : CMakeFiles/doc.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
